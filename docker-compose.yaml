@@ -1,8 +1,8 @@
 version: "2"
 services:
-  nbnode:
+  nbdb:
     image: bloodchen/nbnode:latest
-    container_name: nbnode
+    container_name: nbdb
     restart: always
     volumes:
       - ./config:/home/node/app/config
