@@ -5,6 +5,6 @@ services:
     container_name: nbnode
     restart: always
     volumes:
-      - ./config:/home/node/app/config
+      - ./data:/home/node/app/data
     ports:
       - 9000:9000
